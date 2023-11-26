@@ -455,8 +455,12 @@ a.button {
     font-weight: 500;
     line-height: 150%;
 }
+.ads__img{
+    width: 100%;
+}
 .ads__img img {
     height: 100%;
+    width: 100%;
 }
 .ads_link {
     color: #009b8f !important;
