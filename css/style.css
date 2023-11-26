@@ -628,7 +628,9 @@ a.button {
 }
 
 .about__info .button {
+    display: block;
     margin-top: 30px;
+    width: 185px;
 }
 
 .form {
