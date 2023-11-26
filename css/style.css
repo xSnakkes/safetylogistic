@@ -11,7 +11,7 @@ a:hover {
     cursor: pointer;
     border: 1px solid #009b8f;
 }
-body{
+html {
     scroll-behavior: smooth;
 }
 a.button {
@@ -220,20 +220,14 @@ a.button {
 .main {
     height: calc(100vh - 64px);
     width: 100%;
-    position: relative;
-}
-.bg {
-    height: calc(100vh - 64px);
-    width: calc(100% + 200px);
     background-image: url(../img/bg1.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center right;
-    position: absolute;
-    left: -200px;
-    transition: left 2s;
-    z-index: -1;
     background-attachment: fixed;
+    background-position: center right;
+}
+.bg {
+    height: calc(100vh - 64px);
 }
 
 .main_header {
