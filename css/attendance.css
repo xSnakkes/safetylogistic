@@ -1,0 +1,160 @@
+.attendance__tabs{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.attendance__tab-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+}
+.button__attendance.active{
+    border-radius: 12px;
+    background: #324F44;
+    color: #FFF;
+}
+.button__attendance:hover{
+    border-radius: 12px;
+    background: #324F44;
+    color: #FFF;
+}
+
+.button__attendance{
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    border-radius: 12px;
+    border: 1px solid #324F44;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 22px;
+    width: fit-content;
+    height: 61px;
+    display: inline;
+    white-space: nowrap;
+}
+.attendance__tabs-header{
+    color: #324F44;
+    font-family: Roboto;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 110%;
+}
+@media screen and (max-width: 1338px) {
+    .attendance__tabs-header{
+        font-size: 36px;
+    }
+}
+@media screen and (max-width: 1248px) {
+    .button__attendance{
+        font-size: 16px;
+        padding: 15px 17px;
+    }
+}
+@media screen and (max-width: 1116px) {
+    .attendance__tabs-header{
+        font-size: 26px;
+    }
+}
+@media screen and (max-width: 1061px) {
+    .attendance__tabs-header{
+        font-size: 32px;
+        text-align: center;
+    }
+    .attendance__tabs{
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+    .attendance__tab-container{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width: 768px){
+    .attendance__tabs{
+        padding-top: 15px;
+        gap: 10px;
+    }
+    .button__attendance{
+        max-width: 400px;
+        width: 100%;
+    }
+}
+.tab{
+    display: none;
+}
+.tab._active{
+    display: block;
+}
+.tab .button{
+    width: 148px;
+}
+.tab__container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 160px;
+}
+.tab__wrapper{
+    padding-top: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 110px;
+    padding-bottom: 100px;
+    color: #4B4B4B;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 27px */
+}
+.tab__subtext{
+    max-width: 630px;
+    padding-bottom: 60px;
+    color: #4B4B4B;
+    font-family: Raleway;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 36px */
+}
+@media screen and (max-width: 1131px) {
+    .tab__wrapper{
+        gap: 30px;
+    }
+}
+@media screen and (max-width: 1031px){
+    .tab__wrapper{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 20px 0;
+    }
+    .tab__subtext{
+        padding-bottom: 20px;
+    }
+}
+@media screen and (max-width: 601px){
+    .tab__img{
+        width: 100%;
+    }
+    .tab__img img{
+        width: 100%;
+    }
+    .tab__text{
+        font-size: 16px;
+    }
+    .tab__subtext{
+        font-size: 20px;
+    }
+}
