@@ -11,6 +11,21 @@ a:hover {
     cursor: pointer;
     border: 1px solid #009b8f;
 }
+body{
+    scroll-behavior: smooth;
+}
+a.button {
+    padding: 12px 22px;
+    border-radius: 30px;
+    background: #009b8f;
+    color: #fff;
+    font-family: Raleway;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    z-index: 2;
+}
 .button:hover {
     border: 1px solid #009b8f;
     background-color: #fff;
